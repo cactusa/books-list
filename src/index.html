@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="utf-8">
+	<title>Google Books</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body class="main">
+
+	<button id="login">Log In</button>
+	<button id="books">Display Books</button>
+
+	<div class="wrapper" id="target">Please log in first, then Display books</div>
+
+	<script data-main="js/app" src="js/lib/require.js"></script>
+	<script id="template" type="x-tmpl-mustache">
+		<h1 class="title">List of {{noOfBooks}} books:</h1>
+		<div class="book">
+			<ul class="book__list">
+				{{#books}}
+				<li class="book__item">
+					<div class="book__wrapper group">
+						{{#image}}<img src="{{image}}" class="book__image"></img>{{/image}}
+						{{#title}}<h2 class="book__title">{{title}}</h2>{{/title}}
+						{{#description_short}}<p class="book__description">{{description_short}}</p>{{/description_short}}
+					</div>
+				</li>
+				{{/books}}
+			</ul>
+		</div>
+	</script>
+
+</body>
+
+</html>

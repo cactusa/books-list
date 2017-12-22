@@ -1,0 +1,9 @@
+// Fix for issue caused by floating elements a.k.a clearfix
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}

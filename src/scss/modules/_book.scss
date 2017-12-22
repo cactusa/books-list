@@ -1,0 +1,83 @@
+// Module which contains all relevan styling for the book list
+
+.book {
+
+    &__list {
+        display: flex;
+        flex-flow: wrap;
+        justify-content: space-around;
+    }
+
+    &__item {
+        width: 100%;
+        margin: 0.75rem 0;
+    }
+
+    &__wrapper {
+        padding: 0.75rem;
+        background-color: white;
+        border: 1px solid #8080806e;
+        border-radius: 4px;
+    }
+
+    &__title {
+        margin: 0 1rem 1rem 0;
+    }
+
+    &__description {}
+
+    &__image {
+        float: left;
+        margin: 0 1rem 0 0;
+        box-shadow: 1px 1px 4px 0 grey;
+    }
+
+
+    @media (min-width: 600px) {
+        &__item {
+            width: 48%;
+            margin: 0.5rem 0;
+        }
+        &__wrapper {
+            height: 100%;
+        }
+
+        &__title {
+            margin: 0 1.125rem 1.125rem 0;
+        }
+
+        &__image {
+            margin: 0 1.125rem 1.125rem 0;
+        }
+    }
+
+    @media (min-width: 800px) {
+        &__item {
+            width: 48%;
+            margin: 0.75rem 0;
+        }
+
+        &__title {
+            margin: 0 1.25rem 1.25rem 0;
+        }
+
+        &__image {
+            margin: 0 1.25rem 1.25rem 0;
+        }
+    }
+
+    @media (min-width: 1000px) {
+        &__item {
+            width: 31%;
+            margin: 1rem 0;
+        }
+
+        &__title {
+            margin: 0 1.5rem 1.5rem 0;
+        }
+
+        &__image {
+            margin: 0 1.5rem 1.5rem 0;
+        }
+    }
+}
