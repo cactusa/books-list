@@ -10,7 +10,7 @@ Alisting of 20 books including title, description and image.
 - Project dependencies are managed using npm.
 - The HTML is genrated with the help of mustache templates.
 - SASS preprocessor is used to employ modular CSS.
-- The build process stops short of any minification/uglification of the JS code.
+- The implementation stops short of any minification/uglification of the JS code or automated tests.
 
 
 ## Project structure
