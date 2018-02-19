@@ -1,0 +1,17 @@
+Front-end developer code challenge
+
+Create a web page to display a list of books from Google Books API.
+The book list will display the title, a brief description of the book (200 characters maximum) and the cover image displayed in grayscale. Please retrieve just the first 20 results by using the query string ’javascript’, ordered by most recently published.
+
+Documentation for the API can be found here:
+https://developers.google.com/books/docs/v1/reference/volumes/list
+Feel free to layout the page as you like, keeping in mind basic adaptability and responsiveness, and please code it as you have to share the result with other developers. The page will have to support recent browsers (i.e. don’t worry about any IE version lower than 10).
+Please send us back your code compressed in a zip file or just publish it on a GitHub/ Bitbucket repo.
+
+We will be looking at:
+• Code quality and performance.
+• The structure and modularity of the code and any markup.
+• The suitability of the chosen technologies (hint: please avoid using any non- necessary JS/CSS framework).
+• Documentation and any setup information.
+• Unit testing, if provided.
+We are not expecting a fully-featured, pixel-perfect product - just enough to highlight your skills. Try spending no more than 4 hours on it, thanks!
