@@ -1,7 +1,7 @@
 # List of 20 Books
-===
+---
 
-Alisting of 20 books including title, description and image.
+A listing of 20 books including title, description and image.
 
 ## Project overview
 - A simple app written in JavaScript.
